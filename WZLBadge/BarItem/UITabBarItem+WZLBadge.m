@@ -166,4 +166,12 @@
     [kActualView setBadgeMaximumBadgeNumber:badgeMaximumBadgeNumber];
 }
 
+- (CGFloat)badgeRadius {
+    return [kActualView badgeRadius];
+}
+
+- (void)setBadgeRadius:(CGFloat)badgeRadius {
+    [kActualView setBadgeRadius:badgeRadius];
+}
+
 @end
